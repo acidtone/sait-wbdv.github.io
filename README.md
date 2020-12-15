@@ -22,5 +22,7 @@
 - Nhat
 - Ivan
 - Kevin
+- Emil
+  - super duper pretty portfolio site
 
 ### Groups
