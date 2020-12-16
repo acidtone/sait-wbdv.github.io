@@ -13,7 +13,7 @@
 6. Lauren
 
 ### Group 2
-- Petal Post
+1. Petal Post
 
 ### Group 3
 
