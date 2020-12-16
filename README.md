@@ -7,8 +7,13 @@
 ### Group 1
 1. Jayden
 2. Patrick
+3. Mike
+4. Brett
+5. Josh
+6. Lauren
 
 ### Group 2
+- Petal Post
 
 ### Group 3
 
