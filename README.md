@@ -22,8 +22,8 @@
 2. Lynn
 3. Kevin
 4. Offanel
-5. Spot 5
-6. Spot 6
+5. Lynn
+6. Ivan
 
 ## Roster
 ### Individuals
