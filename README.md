@@ -1,7 +1,6 @@
 ## Presentations
 - Name
 - Title
-- Short Description
 
 ## Agenda
 ### Group 1
@@ -13,22 +12,31 @@
 6. Lauren
 
 ### Group 2
-1. Petal Post
+1. Spot 1
+2. Spot 2
+3. Petal Post
+4. Spot 3
 
 ### Group 3
+1. Spot 1
+2. Spot 2
+3. Spot 3
+4. Spot 4
+5. Spot 5
+6. Spot 6
 
 ## Roster
 ### Individuals
 - Jayden
-  - Java website remake
+  - Java Website Rebuild
   - would like to go first
 - Patrick
   - api for backend, fetching from that api for frontend
 - Josh
 - Brett
-  - rebuilding a shitty website for a carpenter
+  - Carpenter Website Rebuild
 - Lauren
-  - fluffy friends
+  - Fluffy Friend Finder
 - Mike
 - Offanel
   - Taste of Lakay
@@ -38,11 +46,13 @@
 - Ivan
 - Kevin
 - Emil
-  - super duper pretty portfolio site
+  - Portfolio Website
 - Abdullah
-  - portfolio website
+  - Portfolio Website
 - Simeon
-  - tone.js demo
+  - `tone.js` Step Sequencer Demo
+- Ariel
+  - A green website
 
 ### Groups
 - Petal Post
