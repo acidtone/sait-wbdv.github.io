@@ -22,7 +22,7 @@
 2. Lynn
 3. Kevin
 4. Offanel
-5. Lynn
+5. Ariel
 6. Ivan
 
 ## Roster
