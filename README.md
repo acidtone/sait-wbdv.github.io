@@ -3,7 +3,7 @@
 - Title
 
 ## Agenda
-### Group 1
+### Round 1
 1. Jayden
 2. Patrick
 3. Mike
@@ -11,13 +11,13 @@
 5. Josh
 6. Lauren
 
-### Group 2
+### Round 2
 1. Spot 1
 2. Spot 2
 3. Petal Post
 4. Spot 3
 
-### Group 3
+### Round 3
 1. Spot 1
 2. Spot 2
 3. Spot 3
