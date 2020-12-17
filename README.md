@@ -5,22 +5,22 @@
 ## Agenda
 ### Round 1
 1. Jayden
-2. Patrick
-3. Mike
+2. Mike
+3. Patrick
 4. Brett
 5. Josh
 6. Lauren
 
 ### Round 2
-1. Spot 1
+1. Simeon
 2. Abdullah
 3. Petal Post
-4. Spot 3
+4. Nhat
 
 ### Round 3
-1. Spot 1
-2. Spot 2
-3. Spot 3
+1. Nana
+2. Lynn
+3. Kevin
 4. Spot 4
 5. Spot 5
 6. Spot 6
@@ -31,18 +31,20 @@
   - Java Website Rebuild
   - would like to go first
 - Patrick
-  - api for backend, fetching from that api for frontend
+  - Full-stack Project
 - Josh
 - Brett
   - Carpenter Website Rebuild
 - Lauren
   - Fluffy Friend Finder
 - Mike
+  - Brochure/Portfolio Website
 - Offanel
   - Taste of Lakay
 - Lynn
 - Nana
 - Nhat
+  - Portfolio Website
 - Ivan
 - Kevin
 - Emil
