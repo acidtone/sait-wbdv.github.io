@@ -13,7 +13,7 @@
 
 ### Round 2
 1. Spot 1
-2. Spot 2
+2. Abdullah
 3. Petal Post
 4. Spot 3
 
@@ -52,7 +52,7 @@
 - Simeon
   - `tone.js` Step Sequencer Demo
 - Ariel
-  - A green website
+  - A Green Website
 
 ### Groups
 - Petal Post
