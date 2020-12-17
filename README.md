@@ -21,7 +21,7 @@
 1. Nana
 2. Lynn
 3. Kevin
-4. Spot 4
+4. Offanel
 5. Spot 5
 6. Spot 6
 
