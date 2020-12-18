@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Fast Track - Final Presentations</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Ranchers&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://acidtone.github.io/core/v0/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="module" src="assets/js/finals.mjs"></script>
+  <script type="module" src="assets/js/client.mjs"></script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <img src="assets/images/sait-logo.png" alt="SAIT Logo">
+      <div>
+        <h1>SAIT Web Developer Fast Track</h1>
+        <h2>Final Presentations</h2>
+      </div>
+    </header>
+    <main>
+      <h2>Agenda - December 18, 2020</h2>
+      <h3>Introductions and Mingling</h3>
+      <ul>
+        <li>Introductions</li>
+        <li>Program Overview</li>
+      </ul>
+      <h3>10am: Round 1 Presentations</h3>
+      <section id="round1">
+        <!-- Dynamic Content Here-->
+      </section>
+      <h3>11:15am: Round 2 Presentations</h3>
+      <section id="round2">
+        <!-- Dynamic Content Here-->
+      </section>
+      <h3>12:30am: Round 3 Presentations</h3>
+      <section id="round3">
+        <!-- Dynamic Content Here-->
+      </section>
+    </main>
+  </div>
+  <template id="presentation">
+    <article class="presentation">
+      <header>[presentation]</header>
+      <div>
+        <ul>
+          [cards]
+        </ul>
+      </div>
+    </article>
+  </template>
+  <template id="card">
+    <figure>
+      <img src="[image-src]" alt="[name]">
+      <figcaption>
+        <ul class="trophies">[trophies]</ul>
+        <header>[name]</header>
+        <p>[tagline]</p>
+        <ul class="skills">[skills]</ul>
+        <footer>
+          <ul class="socials">[socials]</ul>
+        </footer>
+      </figcaption>
+    </figure>
+  </template>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+  font-family: "Mukta", serif;
+  font-size: 28px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  margin: 0;
+  line-height: .9;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.page-wrapper {
+  max-width: 70ch;
+  margin: auto;
+}
+
+.page-wrapper > header {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 1px solid #aaa;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.page-wrapper > header img {
+  width: 150px;
+}
+
+.page-wrapper > header div {
+  flex-grow: 1;
+}
+
+.page-wrapper > header h1,
+.page-wrapper > header h2 {
+  margin: 0;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+  max-width: 60ch;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main > h3 {
+  font-size: 4rem;
+  width: max-content;
+  margin: 5rem auto;
+  color: #005EB8;
+  font-variant: small-caps;
+}
+
+main > ul {
+  text-align: center;
+}
+
+.presentation {
+  margin-bottom: 5rem;
+}
+
+.presentation header h4 {
+  font-size: 5rem;
+  font-style: italic;
+  margin: 1em 0;
+  color: #666;
+  text-align: center;
+  /* margin: 4em 0 2em; */
+}
+
+figure {
+  display: grid;
+  grid-template-columns: 12em 1fr;
+  grid-template-rows: 1fr;
+  
+  align-items: center;
+  justify-content: center;
+
+  min-height: 15em;
+
+  border: 1px solid #666;
+  border-radius: 4rem;
+  background-image: radial-gradient(rebeccapurple 30%, white 30%);
+  background-size: 100em 100em;
+  background-position: 41em;
+}
+
+
+figure > img {
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  
+  width: 8em;
+  height: 8em;
+  margin: auto;
+
+  border-radius: 50%;
+}
+
+.trophies img {
+  width: 1.5em;
+  margin: 0 0.7rem;
+}
+
+figcaption {
+  text-align: center;
+  margin: 1em;
+}
+
+figcaption header {
+  font-size: 2.5em;
+  color: #666;
+  width: max-content;
+  margin: auto;
+}
+
+figcaption p {
+  margin-bottom: 0.5rem;
+}
+.skills {
+  font-size: .7em;
+  margin-bottom: 1rem;
+}
+
+.socials, .trophies {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.socials > li {
+  font-size: 2em;
+  margin: 0.15em .5em;
+}
