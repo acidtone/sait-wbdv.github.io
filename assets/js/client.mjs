@@ -116,7 +116,7 @@ fetch('https://sait-wbdv.herokuapp.com/api/v0/students/')
       
 
       // Presentation title
-      presentation = document.querySelector('#presentation').content.cloneNode(true);
+      let presentation = document.querySelector('#presentation').content.cloneNode(true);
 
       if (speaker.title) {
         presentation.querySelector('header').innerHTML = `<h4>${speaker.title}</h4>`;
