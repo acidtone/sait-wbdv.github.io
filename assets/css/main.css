@@ -57,13 +57,16 @@ main > h3 {
   color: #005EB8;
   font-variant: small-caps;
 }
-
+main > ul li {
+  font-size: 1.5em;
+  margin: 1em;
+}
 main > ul {
   text-align: center;
 }
 
 .presentation {
-  margin-bottom: 5rem;
+  margin-bottom: 6em;
 }
 
 .presentation header h4 {
@@ -129,6 +132,10 @@ figcaption p {
   margin-bottom: 1rem;
 }
 
+.trophies svg {
+  fill: skyblue;
+}
+
 .socials, .trophies {
   display: flex;
   justify-content: center;
@@ -138,4 +145,8 @@ figcaption p {
 .socials > li {
   font-size: 2em;
   margin: 0.15em .5em;
+
+}
+.socials > li a {
+  color: navy;
 }

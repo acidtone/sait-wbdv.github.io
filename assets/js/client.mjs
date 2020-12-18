@@ -41,11 +41,15 @@ function setCard(student) {
   student.achievements.forEach(achievement => {
     if (achievement.trophy) {
       if (achievement.name === 'MVP') {
-        student.trophies += `<li><img src="assets/images/mvp.svg" alt="${achievement.name} Icon" title="${achievement.name}"></li>`;
+        student.trophies += `<li><img src="assets/images/mvp.svg" alt="${achievement.name} Icon" title="${achievement.name}"></a></li>`;
       } else if (achievement.name === 'Coach of the Year') {
         student.trophies += `<li><img src="assets/images/creative.svg" alt="${achievement.name} Icon" title="${achievement.name}"></li>`;
       } else if (achievement.name === 'Perfect Attendance') {
         student.trophies += `<li><img src="assets/images/perfect-attendance.svg" alt="${achievement.name} Icon" title="${achievement.name}"></li>`;
+      } else if (achievement.name === 'Coach Plus One') {
+        student.trophies += `<li><img src="assets/images/plus-1.svg" alt="${achievement.name} Icon" title="${achievement.name}"></li>`;
+      } else if (achievement.name === 'MVP Plus One') {
+        student.trophies += `<li><img src="assets/images/plus-1.svg" alt="${achievement.name} Icon" title="${achievement.name}"></li>`;
       }
     }
   });
@@ -68,19 +72,19 @@ function setCard(student) {
   student.links.forEach(link => {
     if (link.name === 'github') {
       if (link.username) {
-        student.socials += `<li class="github"><i class="fab fa-github"></i></li>`;
+        student.socials += `<li class="github"><a href="${link.username}" target="_blank"><i class="fab fa-github"></i></a></li>`;
       }
     } else if (link.name === 'codepen') {
       if (link.username) {
-        student.socials += `<li class="codepen"><i class="fab fa-codepen"></i></li>`;
+        student.socials += `<li class="codepen"><a href="${link.username}" target="_blank"><i class="fab fa-codepen"></i></a></li>`;
       }
     } else if (link.name === 'website') {
       if (link.link) {
-        student.socials += `<li class="website"><i class="fas fa-home"></i></li>`;
+        student.socials += `<li class="website"><a href="${link.link}" target="_blank"><i class="fas fa-home"></i></a></li>`;
       }
     } else if (link.name === 'linkedin') {
       if (link.link) {
-        student.socials += `<li class="linkedin"><i class="fab fa-linkedin"></i></li>`;
+        student.socials += `<li class="linkedin"><a href="${link.link}" target="_blank"><i class="fab fa-linkedin"></i></a></li>`;
       }
     } else {
       console.warn('unknown social');
